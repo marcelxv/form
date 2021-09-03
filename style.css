@@ -1,47 +1,61 @@
+
+
 h1 {color:black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 
-body {background-image: url(imagens/viagem6.jpeg);}
+body {background-image: url(imagens/viagem6.jpeg);
+    font-family: 'Lato', sans-serif;
+}
 
 div {
     background-color: white;
-    text-align: center;
-    width: 800px;
+    width: 500px;
     margin: auto;
-}
+
+;}
 
 #tituloformulario {
-    color:white
+    color:black;
 }
 
 .formulariodiv {
-    background-color: darkblue;
-    color:white;
+    background-color:white;
+    color:black;
 
+}
+
+fieldset {
+    border: none;
+}
+
+
+fieldset label {
+    font-weight: 400;
 }
 
 input[type=text], [type=telephone], [type=link], [type=date] {
     transition: width 0.4s ease-in-out;
-    width: 50%;
+    width: 380px;
     padding: 6px 10px;
     border: none;
     border-radius: 4px;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
   }
   
- .edicao1 {
-    width: 100px;
-    float: left;
-    margin-bottom: 10px;
-   }
+  input:focus-visible {
+      border: black 2px solid
+  }
+
    
   select {
-    width: 50%;
+    width: 400px;
     padding: 6px 10px;
     border: none;
     border-radius: 4px;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
 }
 
 textarea {
