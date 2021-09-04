@@ -46,9 +46,8 @@ input[type=text], [type=telephone], [type=link], [type=date] {
   }
   
   input:focus-visible {
-      border: black 2px solid
-  }
-
+      outline: skyblue 2px solid;
+    }
    
   select {
     width: 400px;
@@ -63,4 +62,17 @@ textarea {
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
+}
+
+button {
+    background: skyblue;
+    padding: 10px 30px; 
+    border: none;
+    border-radius: 90px;
+    color: white
+}
+
+button:hover {
+    background: white;
+    color: skyblue
 }
